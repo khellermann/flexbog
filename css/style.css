@@ -30,3 +30,24 @@ img{
 *{
     box-sizing: border-box;
 }
+
+.topinfo-bg{
+    background: #122ab2;
+    color: white;
+}
+
+.topinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.topinfo a{
+    color: white;
+}
+.topinfo p, .topinfo a{
+    margin: 0 10px 10px 0;
+}
