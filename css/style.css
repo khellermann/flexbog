@@ -22,21 +22,21 @@ a {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.topinfo-bg{
+.topinfo-bg {
     background: #122ab2;
     color: white;
 }
 
-.topinfo{
+.topinfo {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -45,18 +45,20 @@ img{
     padding-top: 10px;
 }
 
-.topinfo a{
+.topinfo a {
     color: white;
 }
-.topinfo p, .topinfo a{
+
+.topinfo p,
+.topinfo a {
     margin: 0 10px 10px 0;
 }
 
-.menu-bg{
+.menu-bg {
     background-color: #2c70ff;
 }
 
-.menu{
+.menu {
     max-width: 960px;
     margin: 0 auto;
     padding: 15px 0;
@@ -66,27 +68,64 @@ img{
     align-items: center;
 }
 
-.menu a{
+.menu a {
     color: white;
 }
 
-.menu-logo a{
+.menu-logo a {
     font-size: 2.25em;
     font-weight: bold;
-    margin:0 10px;
+    margin: 0 10px;
 }
 
-.menu-nav ul{
+.menu-nav ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-.menu-nav a{
+.menu-nav a {
     font-size: 1.25em;
     display: block;
     padding: 10px;
 }
 
-.menu-nav a:hover{
-    color: #122ab2;;
+.menu-nav a:hover {
+    color: #122ab2;
+    ;
+}
+
+.intro {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.sobre {
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+.sobre-img{
+    flex: 1 1 160px;
 }
